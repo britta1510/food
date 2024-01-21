@@ -1,0 +1,216 @@
+ul{
+    button 
+    {
+        background:whitesmoke;
+        color:black;
+        padding: 15px;
+        border: 1px solid black;
+        margin-top: 30px;
+    }
+}
+
+ul li{
+    display: inline;
+
+}
+
+ul li a 
+{
+    text-decoration:none;
+    color: rgba(119, 116, 116, 0.959);
+    padding:12px 22px;
+    background:white;
+
+}
+.nav_bar
+{
+    display: flex;
+    justify-content: space-between;
+}
+.backgroud_img 
+{
+    background-image: url('img/1.jpg');
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.h1 
+{
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.button 
+{
+    background: transparent;
+    color: white;
+    padding: 12px;
+    border: 1px solid wheat;
+    margin-top: 30px;
+}
+.footer
+{
+    text-align: center;
+    padding: 10px;
+    background-color:rgb(20, 18, 18);
+    color: white;
+}
+.PORTFOLIO
+{
+    text-align: center;
+    padding: 05px;
+    background-color:white;
+    color:black;
+}
+
+.gallery
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0px;
+}
+.img_1{
+    background-image: url('img/3.png');
+    background-color:transparent;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img_2{
+    background-image: url('img/4.png');
+    background-color:transparent;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ 
+.img_3{
+    background-image: url('img/5.png');
+    background-color:transparent;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.h1{
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.button{
+    background: transparent;
+    color:white;
+    padding: 12px;
+    border: 50% black;
+    margin-top: 30px;
+}
+.ABOUT{
+    text-align:center;
+}
+ 
+.about_img
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0px;
+}
+.about_info{
+    background-color:transparent;
+    height:05px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align:justify;
+    align-items: center;
+    background-color:white;
+    color:black;
+}
+.box{
+    display: flex;
+}
+.BOOK{
+     
+    text-align: center;
+    padding: 05px;  
+}
+.book{
+    text-align: center;
+    padding: 05px; 
+}
+.dollar{
+    text-align: center;
+    padding: 05px;
+}
+.book_img{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0px;
+}
+.button{
+    background:white;
+    color:black;
+    padding: 12px;
+    border: 100% black;
+    margin-top: 30px;
+   text-align: center;
+    align-items: center;
+}
+.BLOG{
+    text-align: center;
+    padding: 05px;
+    background-color:white;
+    color:black;
+}
+.blog_img{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    padding: 0px;
+}
+.CONTACT{
+    text-align: center;
+    padding: 05px;
+    background-color:white;
+    color:black;
+}
+
+.itembox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
